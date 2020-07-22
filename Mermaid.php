@@ -7,9 +7,13 @@ use Mermaid\HookRegistry;
  *
  * @defgroup mermaid Mermaid
  */
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die( 'This file is part of the Mermaid extension, it is not a valid entry point.' );
-}
+// Fandom change - start
+// This check stop execution of dev scripts eg. phpunit, phpcs - PLATFORM-4969
+//if ( !defined( 'MEDIAWIKI' ) ) {
+//	die( 'This file is part of the Mermaid extension, it is not a valid entry point.' );
+//}
+// Fandom change - end
+
 
 /**
  * @codeCoverageIgnore
